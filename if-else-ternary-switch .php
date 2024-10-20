@@ -78,3 +78,18 @@
  else: Executes the code if none of the previous conditions are true.
  Ternary Operator: A shorthand for if-else with a concise syntax.
  switch: Allows matching a variable against multiple cases to execute different blocks of code. -->
+
+
+
+ <?php
+
+    function solveMeFirst()
+    {
+        fscanf(STDIN, "%d %d", $a, $b);
+        $c = $a + $b;
+        echo $c;
+    }
+
+    echo solveMeFirst();
+
+    ?>
